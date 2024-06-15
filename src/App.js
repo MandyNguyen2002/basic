@@ -8,7 +8,12 @@ function App() {
 
   return (
     <div className="App">
-      <Heading fullName={"MANDY NGUYEN"} />
+      <Heading
+        fullName={"MANDY NGUYEN"}
+        about="Junior year Computer Engineering student actively looking for an
+          internship/co-op position in Computer Engineering that will allow me
+          to apply my knowledge to benefit my workspace."
+      />
 
       <div className="space">
         <hr></hr>
