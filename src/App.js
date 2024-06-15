@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Heading
         fullName={"MANDY NGUYEN"}
+        address="4105 Hamlin Ave · Chantilly, VA 20151"
         about="Junior year Computer Engineering student actively looking for an
           internship/co-op position in Computer Engineering that will allow me
           to apply my knowledge to benefit my workspace."
