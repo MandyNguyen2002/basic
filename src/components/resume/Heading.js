@@ -1,14 +1,13 @@
 import React from "react";
 import profile from "../../profile.jpg";
 
-export function Heading({ fullName, about, address }) {
+export function Heading({ fullName, about, address, phonenumber, mail }) {
   return (
     <div className="App-header">
       <div className="text-container">
         <h1>{fullName}</h1>
         <div className="sub-heading">
-          {address} · (571) 259-0378 ·
-          <a href="mailto:name@email.com">tnguyen29@binghamton.edu</a>
+          {address} · {phonenumber} ·<a href="mailto:name@email.com">{mail}</a>
         </div>
         <div className="about">{about}</div>
         <div className="links">
